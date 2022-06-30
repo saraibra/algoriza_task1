@@ -25,11 +25,11 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     BoardingModel(
         image: 'assets/images/Online_shopping_pana.svg',
         title: 'Online Shopping',
-        body: 'On Board 1 Body'),
+        body: 'A shopping app that makes you feel at home with each experience carefully selected to satisfy you.'),
     BoardingModel(
         image: 'assets/images/Credit_Card_Payment_cuate.svg',
         title: 'Easy Payment',
-        body: 'On Board 2 Body'),
+        body: 'We have various methods of payments available for you.'),
     BoardingModel(
         image: 'assets/images/Refund-pana.svg',
         title: 'Return',

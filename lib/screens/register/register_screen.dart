@@ -141,7 +141,7 @@ class RegiserScreen extends StatelessWidget {
                 ),
                 DefaultTextFormField(
                     isPassword: true,
-                    controller: emailController,
+                    controller: passwordController,
                     suffixIcon:Icons.visibility,
                     type: TextInputType.text,
                     validate: (value){
@@ -149,6 +149,7 @@ class RegiserScreen extends StatelessWidget {
                         return 'Please enter your password';
                       }
                     },
+                    suffixPressed: (){},
                     value: '******'),
                 const SizedBox(
                   height: 20,
